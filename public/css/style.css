@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Asap', sans-serif;
+}
+
+body {
+  background-color: #e65b0d;
+}
+
+header {
+  background: #FFF;
+
+}
+
+header h1 {
+  color: #24272E;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+button {
+  margin: 20px;
+  padding: 2px 4px;
+  text-transform: uppercase;
+  color: #FFF;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #000;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+button:hover {
+  cursor: pointer;
+  background: red;
+}
+
+.left {
+  border: 3px solid #FFF;
+  border-radius: 4px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 200px;
+  color: #FFF;
+  font-size: 20px;
+  padding: 15px 20px;
+  float: left;
+  width: 20%;
+}
+
+.right {
+  border: 3px solid #FFF;
+  border-radius: 4px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 200px;
+  color: #FFF;
+  font-size: 20px;
+  padding: 15px 20px;
+  float: right;
+  width: 20%;
+}
+
+.result {
+  font-size: 40px;
+  color: #FFF;
+}
+
+.result p {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.choices {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.choice {
+  border: 4px solid #FFF;
+  margin: 20px 15px;
+  padding: 10px;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+img {
+  height: 250px;
+  width: 250px;
+}
+
+.choice:hover {
+  cursor: pointer;
+  background: #993d0a;
+}
+
+#action-message {
+  text-align: center;
+  padding-top: 20px;
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.green-flash {
+  border: 4px solid #4dcc7d;
+  box-shadow: 0 0 10px #31b43a;
+}
+
+.red-flash {
+  border: 4px solid #fc121b;
+  box-shadow: 0 0 10px #d01115;
+}
+
+.grey-flash {
+  border: 4px solid #464647;
+  box-shadow: 0 0 10px #25292b;
+}
